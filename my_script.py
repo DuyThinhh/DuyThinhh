@@ -9,5 +9,5 @@ template_fname = sys.argv[2:2] or glob('*.j2')[0]
 thinh = yaml.load(open(thinh_fname).read())
 template = Template(open(template_fname).read())
 
-print ("template.render(datavars)")
+print ("template.render(thinh)")
 
